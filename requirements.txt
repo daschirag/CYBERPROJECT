@@ -1,0 +1,29 @@
+# Core backend
+fastapi==0.115.0
+uvicorn==0.32.0
+
+# Machine Learning + Data
+scikit-learn==1.5.2
+pandas==2.2.3
+numpy==1.26.4
+joblib==1.4.2
+
+# HTTP & Utils
+requests==2.32.3
+jinja2==3.1.4
+
+# ETL / Real-time processing
+pathway==0.26.4
+
+# Optional visualization and notebook support
+matplotlib==3.9.2
+notebook==7.2.2
+
+# Text + NLP (for spam/phish detection improvement later)
+nltk==3.9.1
+textblob==0.18.0
+
+# Cloud + Logging (optional, for extension)
+boto3==1.35.15
+opentelemetry-api==1.28.1
+opentelemetry-sdk==1.28.1
